@@ -1,0 +1,123 @@
+body{
+  background-color: rgb(216, 218, 166);
+  font-family: Poppins, sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+body{
+  background: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+  justify-content: top;
+}
+/* #inputField{
+  width: 250px;
+  padding: 10px 12px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.6s;
+} 
+ #inputField:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+#myButton{
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+} */
+/* #myButton:hover {
+  background-color: #155799;
+}
+#username-label {
+  display: block;
+  font-size: 22px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 10px;
+  text-transform: capitalize; 
+}*/
+/* main{
+  color: #c90f0f;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+p{
+  color: #0a5d44;
+  margin-bottom: 20px;
+  font-weight: normal;
+}  */
+/* body {
+  background-color: rgb(216, 218, 166);
+  font-family: Poppins, sans-serif;
+  text-align: center;
+  font-size: 30px;
+  background: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+}
+#main{
+  color: #000000;
+  font-size: 50px;
+  margin-top: 80px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+  /* background-color: #cb0e0e; 
+}
+#p{
+  color: #0a5d44;
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+#radius {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #b73434;
+}
+#inputField {
+  width: 280px;
+  padding: 10px 14px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+}
+#inputField:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 6px rgba(74, 144, 226, 0.4);
+}
+#myButton {
+  margin-top: 15px;
+  padding: 10px 25px;
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+#myButton:hover {
+  background-color: #155799;
+  transform: scale(1.05);
+} */
+
+
+
