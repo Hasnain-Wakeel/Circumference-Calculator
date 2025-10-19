@@ -1,2 +1,3 @@
-# PROJECTS REPOSITORY :
-A collection of my personal projects and coding experiments, made to sharpen my programming skills and try out new concepts.
+# Circumference Calculator :
+A simple project of a "Circumference Calculator". <br> 
+As a beginner , this project is an effort of practicing JavaScript methods and DOM to use them in a new way and creating and working on new ideas.
