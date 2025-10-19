@@ -40,18 +40,13 @@
 
 // Constant (const) Variables :
 
-// const PI = 3.14159;
-// let radius;
-// let circumference;
+const PI = 3.14159;
+let radius;
+let circumference;
 
-// document.getElementById("myButton").onclick = function () {
-//   radius = document.getElementById("inputField").value;
-//   radius = Number(radius);
-//   circumference = (2 * PI * radius).toFixed(2);                 // 2 decimals tak round ho gii value 
-//   document.getElementById(
-//     "p"
-//   ).textContent = `The circumference of a circle with radius ${radius} cm is ${circumference} cm.`;
-// };
-
-
-
+document.getElementById("myButton").onclick = function () {
+  radius = document.getElementById("inputField").value;
+  radius = Number(radius);
+  circumference = (2 * PI * radius).toFixed(2);                 // 2 decimals tak round ho gii value 
+  document.getElementById("p").textContent = `The circumference of a circle with radius ${radius} cm is ${circumference} cm.`;
+};
