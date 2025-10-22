@@ -45,8 +45,29 @@ let radius;
 let circumference;
 
 document.getElementById("myButton").onclick = function () {
-  radius = document.getElementById("inputField").value;
-  radius = Number(radius);
-  circumference = (2 * PI * radius).toFixed(2);                 // 2 decimals tak round ho gii value 
-  document.getElementById("p").textContent = `The circumference of a circle with radius ${radius} cm is ${circumference} cm.`;
+  const input = document.getElementById("inputField");
+  const output = document.getElementById("p");
+
+  // Check if Input is Empty or not a Valid Number
+  if (input.value.trim() === "" || isNaN(input.value) || input.value < 0 ) {
+    output.textContent = "Please enter a valid radius!";
+    output.style.color = "#d32f2f";         // red for error
+    input.style.borderColor = "#d32f2f";    // red border for invalid input
+    return;
+  }
+
+  radius = Number(input.value);
+  circumference = (2 * PI * radius).toFixed(2);
+
+  // Show result
+  output.textContent = `The circumference of a circle with radius ${radius} cm is ${circumference} cm.`;
+  output.style.color = "#1e40af";             // blue for result
+  input.style.borderColor = "#3b82f6";        // restore normal border color
+
+  resetFunction(input);
 };
+
+function resetFunction(input) {
+  input.value = "";     // clear input
+  input.focus();        // auto-focus again
+}
